@@ -125,7 +125,7 @@ a:hover{
 }
 
 .btn-blue{
-    background-color: #3161e0;;
+    background-color: #3161e0;
 }
 
 .btn-black a, .btn-blue a{
@@ -136,9 +136,6 @@ a:hover{
     padding-top: 40px;
 }
 
-/* .section-img{
-    width: 60%;   
-} */
 .section-text h2{
     font-size: 45px;
     margin-bottom: 40px;
@@ -154,7 +151,7 @@ a:hover{
     font-size: 25px;
 }
 
-#second-place{
+#second-place, #fourth-place{
     background-color: #f6f6f6;
     padding-bottom: 2%;
 }
