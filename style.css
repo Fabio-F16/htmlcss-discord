@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .clearfix::after{
     content:"";
@@ -10,39 +13,50 @@
     clear: both;
 }
 
-
-.top-header{
-    width: 100%;
-    height: 70px;
-    background-color: #3161e0;
-    color: white;
-    line-height: 70px;
-    vertical-align: middle;
+.float-left{
+    float: left;
 }
-.logo{
-    position: relative;
-    top: 15px;
 
-}
 .container{
-    width: 80%;
     margin: auto;
     text-align: center;
 }
 
-.float-left{
-    float: left;
+.container-margin{
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
 }
 
 .width-20{
     width: 20%;
 }
+
 .width-60{
     width: 60%;
 }
 
+.width-80{
+    width: 80%;
+}
+
 .width-100{
     width: 100%;
+}
+
+.top-header{
+    height: 70px;
+    margin: 0px;
+    line-height: 70px;
+    vertical-align: middle;
+    background-color: #3161e0;
+    color: white;
+    position:relative;
+}
+
+.logo{
+    position: relative;
+    top: 15px;
 }
 
 nav ul li{
@@ -50,6 +64,7 @@ nav ul li{
     margin: 0px 10px;
     
 }
+
 a{
     text-decoration: none;
     color:white;
@@ -59,7 +74,6 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
 
 .btn{
     background-color: white;
@@ -87,7 +101,7 @@ a:hover{
     text-align: center;
 }
 
-.header-text h1{
+.header-text h1{ 
     font-size: 65px;
     margin-bottom: 30px;
 }
@@ -110,13 +124,6 @@ a:hover{
     color: white;
 }
 
-.section-container{
-    width: 80%;
-    margin: auto;
-    margin-top: 10%;  
-
-}
-
 .section-text{
     width: 40%;
     padding-top: 40px;
@@ -135,9 +142,11 @@ a:hover{
     font-size: 25px;
 }
 
-.second-place{
+#second-place{
     background-color: #f6f6f6;
+    padding-bottom: 2%;
 }
+
 
 
 
