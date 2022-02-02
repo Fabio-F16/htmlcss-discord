@@ -49,10 +49,12 @@ nav ul li{
 a{
     text-decoration: none;
 }
-nav ul li a{
+/* nav ul li a{
+    color: white;
+} */
+a{
     color: white;
 }
-
 
 a:hover{
     text-decoration: underline;
@@ -62,9 +64,54 @@ a:hover{
 .btn{
     background-color: white;
     color: black;
-    padding: 6px 10px;
+    padding: 10px 15px;
     border-radius: 20px;
 }
+
+.btn a{
+    color: black;
+}
+
+.bottom-header{
+    height: 450px;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    position: relative;
+}
+
+
+.section-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.section-text h1{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+
+.section-text p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.section-text .btn{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.btn-black{
+    background-color: black;
+}
+
+.btn-black a{
+    color: white;
+}
+
 
 
 
