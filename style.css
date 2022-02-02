@@ -48,13 +48,9 @@ nav ul li{
 }
 a{
     text-decoration: none;
+    color:white;
 }
-/* nav ul li a{
-    color: white;
-} */
-a{
-    color: white;
-}
+
 
 a:hover{
     text-decoration: underline;
@@ -63,7 +59,6 @@ a:hover{
 
 .btn{
     background-color: white;
-    color: black;
     padding: 10px 15px;
     border-radius: 20px;
 }
@@ -79,8 +74,7 @@ a:hover{
     position: relative;
 }
 
-
-.section-text{
+.header-text{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -89,17 +83,17 @@ a:hover{
     text-align: center;
 }
 
-.section-text h1{
+.header-text h1{
     font-size: 65px;
     margin-bottom: 30px;
 }
 
-.section-text p{
+.header-text p{
     font-size: 25px;
     margin-bottom: 30px;
 }
 
-.section-text .btn{
+.header-text .btn{
     margin: 30px;
     font-size: 20px;
 }
@@ -111,6 +105,31 @@ a:hover{
 .btn-black a{
     color: white;
 }
+
+.section-container{
+    width: 80%;
+    height: 850px;
+    margin: auto;
+    margin-top: 10%;   
+}
+
+.section-text{
+    width: 25%;
+    padding-top: 40px;
+}
+
+.section-img{
+    width: 75%;
+}
+.section-text h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.section-text p{
+    font-size: 25px;
+}
+
 
 
 
