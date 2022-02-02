@@ -32,6 +32,10 @@ body{
     width: 20%;
 }
 
+.width-40{
+    width: 40%;
+}
+
 .width-60{
     width: 60%;
 }
@@ -120,22 +124,30 @@ a:hover{
     background-color: black;
 }
 
-.btn-black a{
+.btn-blue{
+    background-color: #3161e0;;
+}
+
+.btn-black a, .btn-blue a{
     color: white;
 }
 
 .section-text{
-    width: 40%;
     padding-top: 40px;
 }
 
-.section-img{
-    width: 60%;
-    
-}
+/* .section-img{
+    width: 60%;   
+} */
 .section-text h2{
     font-size: 45px;
     margin-bottom: 40px;
+}
+
+.section-text h4{
+    font-size: 35px;
+    position:relative;
+    bottom: 15px;
 }
 
 .section-text p{
