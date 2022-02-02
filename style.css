@@ -108,7 +108,6 @@ a:hover{
 
 .section-container{
     width: 80%;
-    height: 850px;
     margin: auto;
     margin-top: 10%;   
 }
@@ -120,6 +119,7 @@ a:hover{
 
 .section-img{
     width: 75%;
+    height: 30%;
 }
 .section-text h2{
     font-size: 45px;
@@ -128,6 +128,10 @@ a:hover{
 
 .section-text p{
     font-size: 25px;
+}
+
+.second-place{
+    background-color: #f6f6f6;
 }
 
 
