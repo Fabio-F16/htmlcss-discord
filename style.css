@@ -24,8 +24,11 @@ body{
 
 .container-margin{
     margin: auto;
-    text-align: center;
     margin-top: 7%;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .width-20{
@@ -156,7 +159,9 @@ a:hover{
     padding-bottom: 2%;
 }
 
-
+#fourth-place .section-text{
+    text-align: center;
+}
 
 
 
